@@ -1,4 +1,3 @@
 INDEX VERSION 1.134+C:\Matheus\git\.metadata\.plugins\org.eclipse.jdt.core
 4101826301.index
-3729101479.index
 1865797976.index
