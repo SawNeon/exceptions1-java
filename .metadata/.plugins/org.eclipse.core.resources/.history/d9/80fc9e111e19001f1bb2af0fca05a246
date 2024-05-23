@@ -6,7 +6,6 @@ import java.util.Date;
 import java.util.Scanner;
 
 import entities.Reservation;
-import exceptions.DomainException;
 
 public class Program {
 
@@ -42,11 +41,8 @@ public class Program {
 			System.out.println("Invalid date format");
 			
 		}
-		catch (DomainException e) {
+		catch (IllegalArgumentException e) {
 			System.out.println("Error in resevation: " + e.getMessage());
-		}
-		catch(RuntimeException e) {
-			System.out.println("Unexpected error");
 		}
 		
 		
